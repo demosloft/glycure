@@ -1,0 +1,2996 @@
+html {
+  scroll-behavior: smooth;
+}
+section.loft_header_section {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+@font-face {
+  font-family:Calibri_Regular;
+  src: url(Calibri_Regular.ttf);
+}
+@font-face {
+  font-family:Calibri_Light;
+  src: url(Calibri_Light.ttf);
+}
+body{
+  /*  font-family:calibri !important;*/
+    margin: 0px !important;
+	color:#565656 !important;
+	background: #f8f9fa;
+	font-size:22px;
+}
+body {
+    overflow-x: hidden;
+}
+p{
+	font-size:22px;
+}
+h1,h2,h3,h4,h5{
+	font-family:Calibri_Regular !important;
+}
+body,p,span,a,form,input,textarea{
+	font-family:Calibri_Light !important;
+	line-height: 30px;
+}
+p{
+    font-weight: 300;
+}
+.homepage_banner_mobile{
+	display:none;
+}
+.loft_navbar a {
+    color: #565656;
+    font-size: 22px;
+    font-weight: 500;
+    transition: .5s;
+	font-family: 'Calibri_Regular' !important;
+}
+.home_page_banner_new video {
+    width: 100% !important;
+    min-width: 100%;
+}
+
+.home_page_banner_new {
+    position: relative;
+    height: 40vw;
+}
+.loft_bann_text_new h2 {
+    font-size: 22px;
+    color: #000;
+    line-height: 23px;
+}
+.loft_bann_text_new {
+    max-width: 375px;
+	position:relative;
+    color: #000;
+    float: right;
+}
+.loft_bann_text_new .home_banner_icon {
+    position: absolute;
+    max-height: 60px;
+    left: -70px;
+    top: -8px;
+}
+.home_new_banner_text {
+    position: absolute;
+    top: 6vw;
+    width: 100%;
+}
+.home_page_banner_new video {
+    width: 100% !important;
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center -9vw;
+}
+.home_banner_right_img .col-md-6 {
+    padding-right: 0;
+}
+/*.home_banner_text_main {
+    position: absolute;
+	width:100%;
+	height:100%;
+}*/
+ .loft_navbar a:visited {
+    color: #565656;
+}
+.loft_navbar a:hover{
+    color: #FF8200;
+	text-decoration:none;
+}
+.cust_nav {
+    display: inline-block;
+}
+.loft_header_section{
+    background: #ffffff;
+    padding: 18px 0;
+}
+.loft_header_section .row {
+    align-items: center;
+}
+.loft_navbar {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+.loft_navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+.cust_logo img {
+    width: 100%;
+}
+.cust_logo {
+    width: 100%;
+    max-width: 96px;
+    margin-left: auto;
+    display: inline-block;
+}
+
+/*.home_page_banner h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+}*/
+.home_page_banner span {
+    color: #FF8200;
+	font-family:Calibri_Regular !important;
+}
+
+.loft_banner_sec.partner_page_banner {
+    background: url(../images/partnership_banner.jpg) #00071e;
+	background-position: right top;
+    background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+.loft_banner_sec.home_page_banner {
+    background: url(../images/home_banner_new_img.jpg);
+	background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.loft_banner_sec.about_page_banner {
+	 background: url(../images/about_new_banner.jpg) #051118;
+	background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.loft_banner_sec.science_banner {
+    background: url(../images/science_new_banner.jpg) #051118;
+    background-position: right top;
+	background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.loft_banner_sec.contact_page_banner {
+    background: url(../images/contact_banner.jpg) #02081e;
+	background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.home_page_banner h2 {
+    max-width: 560px;
+}
+.loft_banner_sec.technology_banner {
+    background: url(../images/technology_banner.jpg) #010a10;
+    background-size: auto 100%;
+    text-align: left;
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.about_page_banner .home_banner_text_main h2 {
+    max-width: 440px;
+}
+.about_us_main .col-md-6 {
+    align-self: center;
+}
+.partner_page_banner .home_banner_text_main h2 {
+    max-width: 520px;
+}
+.science_banner .home_banner_text_main h2 {
+    max-width: 570px;
+}
+.technology_banner .home_banner_text_main h2 {
+    max-width: 500px;
+}
+.loft_bann_text p {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 0;
+    max-width: 560px;
+    margin-top: 25px;
+}
+.partner_page_banner h2 {
+    max-width: 520px;
+}
+.loft_banner_sec {
+    position: relative;
+    background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height:33vw;
+	display: flex;
+    align-items: center;
+}
+.home_slider_section_inner {
+    position: relative;
+}
+.home_banner_text_main {
+    width: 100%;
+}
+.home_page_banner .home_banner_text_main h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.home_banner_text_main h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.home_slider_content {
+    position: absolute;
+    top: -15px;
+    background: #104378;
+    max-width: 315px;
+    padding: 30px;
+    left: -15px;
+    color: #fff;
+    font-size: 22px;
+}
+.home_slider_content p {
+    min-height: 100px;
+}
+a:visited{
+	color:unset;
+}
+.home_slider_section_right .home_slider_content {
+    background: #ff8200;
+}
+.home_slider_content a {
+    color: #ff8200 !important;
+    float: right;
+}
+.home_slider_content a:hover {
+     font-family: 'Calibri_Regular' !important;
+	text-decoration:none;
+}
+.home_slider_section_right .home_slider_content a {
+    color: #104378 !important;
+}
+.banner_section_after {
+    width: 100%;
+    height: 69px;
+    background: url(../images/banner_bgimg.jpg);
+	margin-top:10px;
+	display:none;
+}
+.home_slider_section,
+.about_glycure_difference,
+.technology_second {
+    background: #f8f9fa;
+    padding: 200px 0;
+}
+.home_explore_section
+{
+    background: #fff;
+    padding: 150px 0;
+}
+
+.about_us_main,
+.technology_first,
+.technology_last_section
+{
+    background: #fff;
+    padding: 200px 0;
+}
+.home_slider_section_left {
+    padding-right: 70px;
+}
+.home_slider_section_right {
+    padding-left: 70px;
+}
+.loft_banner_sec .row {
+    align-items: center;
+	height:100%;
+}
+.loft_banner_sec .container {
+	height:100%;
+}
+.loft_bann_img img {
+    width: 100%;
+	image-rendering: -webkit-optimize-contrast;
+}
+.loft_bann_img {
+    width: 100%;
+    margin-left: auto;
+    position: relative;
+    bottom: -150px;
+    margin-top: -150px;
+}
+.ban_btn {
+    border: 2px solid #104378;
+    background: #104378;
+    color: #fff !important;
+    font-size: 24px;
+    display: inline-block;
+    padding: 12px 43px;
+    border-radius: 50px;
+    transition: .3s;
+    font-family: 'Calibri_Regular' !important;
+    font-weight: 300 !important;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.ban_btn:hover, .ban_btn:focus {
+    text-decoration: none;
+    background: #fff;
+    color: #104378 !important;
+    outline: none;
+}
+.home_explore_section_left_inner {
+    max-width: 450px;
+}
+.home_explore_section_left_inner h3 {
+    color: #104378;
+    font-family: 'Calibri_Regular' !important;
+    margin-top: 25px;
+    margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 600;
+}
+/*.loft_Partnership_img {
+    margin-top: 70px;
+}*/
+.loftban-btn {
+    margin-top: 140px;
+}
+.loft_we_are_sec {
+    padding: 210px 0 200px;
+}
+.loft_we_are_img img {
+    width: 100%;
+}
+.loft_we_are_img {
+  max-width: 550px;
+}
+.loft_we_are_sec .col-md-6 {
+    align-self: center;
+}
+.loft_we_are_text p:last-child {
+    margin-bottom: 0;
+}
+.about_us_main h2{
+    color: #104378;
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 500px;
+    margin-bottom: 35px;
+}
+.about_glycure_difference h2{
+	color: #104378;
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 160px;
+   margin-top: 110px;
+}
+.about_glycure_difference .col-md-4 {
+    padding-left: 30px;
+}
+.about_glycure_difference p {
+    max-width: 445px;
+}
+.about_glycure_difference .row {
+    align-items: center;
+}
+.about_glycure_difference .col-md-3 {
+    align-self: flex-start;
+}
+.about_us_main_text p {
+    max-width: 550px;
+}
+.about_us_img {
+    position: relative;
+}
+.about_us_img_content {
+    position: absolute;
+    top: 42.5%;
+    left: -50px;
+    max-width: 300px;
+    background: #ff8200;
+    padding: 22px 20px 25px;
+    color: #fff;
+}
+.about_us_img_content p {
+    margin-bottom: 0;
+    font-family: 'Calibri_Regular' !important;
+    line-height: 25px;
+}
+
+.about_us_img img {
+    max-width: 440px;
+}
+.about_last_section {
+    position: relative;
+	background:#fff;
+	padding:200px 0;
+}
+.about_last_img3 {
+    position: relative;
+    left: -40px;
+    max-width: 215px;
+    margin-bottom: 20px;
+}
+.about_last_img4 {
+    float: right;
+    max-width: 110px;
+    position: relative;
+    right: -50px;
+    top: -15px;
+}
+.about_last_img2 {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    max-height: 140px;
+}
+.about_last_section p {
+    max-width: 525px;
+}
+.about_last_section h2 {
+    color: #104378;
+    font-size: 30px;
+    font-weight: 600;
+}
+.about_last_right_box {
+    max-width: 410px;
+    float: right;
+    padding: 0 50px;
+}
+.about_last_img1 {
+    position: absolute;
+    top: 0;
+    left: 49%;
+    max-height: 140px;
+}
+.loft_we_are_text p {
+    color: #565656;
+    font-size:24px;
+    line-height: 32px;
+}
+.loft_we_are_text span {
+    color: #FF8200;
+	font-family:Calibri_Regular !important;
+}
+.loft_we_are_text h3 {
+    font-size:28px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.science_right_image_inner {
+    position: relative;
+    max-width: 520px;
+    float: right;
+}
+.science_right_image_content {
+    position: absolute;
+    top: -70px;
+    background: #104378;
+    max-width: 334px;
+    padding: 20px;
+    right: -30px;
+    color: #fff;
+    font-size: 22px;
+}
+.science_right_image_content p {
+    margin-bottom: 0;
+}
+.science_right_image_icon {
+    position: absolute;
+    top: -25px;
+    left: -15px;
+}
+.loft_SCIENCE_AND_APPROACH {
+    background: #f8f9fa;
+    padding: 120px 0 120px;
+}
+.science_right_image_main {
+    padding: 200px 15px;
+}
+.science_right_image_main .col-md-6 {
+    align-self: flex-end;
+}
+.science_right_image {
+    padding-left: 50px;
+}
+.science_left_text {
+    padding-right: 50px;
+}
+.science_left_content {
+    max-width: 430px;
+}
+.science_left_sub_text p {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.science_left_sub_text {
+    position: relative;
+    margin-top: 45px;
+}
+.science_left_sub_text:after {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #000;
+}
+.science_left_content sup {
+	color:#ff8200;
+	font-size:12px;
+}
+.science_left_sub_text {
+    position: relative;
+    margin-top: 45px;
+}
+.loft_SCIENCE_heading h2 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+.loft_SCIENCE_heading p {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 40px;
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loft_SCIENCE_heading span {
+    color: #FF8200;
+	font-family:Calibri_Regular !important;
+	
+}
+.loft_SCIENCE_heading {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.technology_last_right {
+    padding-left: 15%;
+}
+.technology_last_right p{
+	margin-bottom:0;
+}
+.technology_last_section .row {
+    align-items: center;
+}
+.technology_last_section h2 {
+    color: #ff8200;
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 500px;
+    margin-bottom: 35px;
+}
+.technology_second_left_content p {
+    max-width: 440px;
+}
+.technology_first_image_inner {
+    max-width: 550px;
+    float: right;
+    position: relative;
+}
+.technology_first_left_content {
+    max-width: 470px;
+}
+.technology_second_image {
+    align-self: center;
+}
+.technology_second_image_inner {
+    max-width: 550px;
+    float: right;
+}
+.technology_first_image_content {
+    position: absolute;
+    top: -10px;
+    background: #ff8200;
+    max-width: 425px;
+    padding: 30px;
+    right: 0px;
+    color: #fff;
+    font-size: 22px;
+}
+.technology_first_image_content p{
+	margin-bottom:0px;
+}
+.technology_first h2,
+.technology_second h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+.loft_SCIENCE_tabs, .loft_Technology_select {
+    width: 100%;
+    background: #fff;
+    max-width: 620px;
+    margin-top: 40px;
+    border: 2px solid #f1f1f1;
+}
+ .question_faq {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+.loft_SCIENCE_tabs .question_faq:first-child{
+    border-bottom: 2px solid #f1f1f1;
+}
+.question_faq a {
+    color: #1f2c66;
+    font-size: 24px;
+    display: block;
+}
+.setsss .meta_bolis {
+    max-width: 420px;
+    margin: 20px auto;
+}
+.question_faq a span {
+    color: #FF8200;
+	font-family:Calibri_Regular !important;
+}
+.question_faq .fa.fa-angle-right:before {
+    transform: rotate(178deg);
+}
+.question_faq i:before {
+    content: "\f107";
+    color: #454544;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    top:20px;
+    right: 20px;
+}
+.loft_SCIENCE_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -8px;
+    margin-bottom: 25px;
+	color:#000000;
+}
+.loft_Partnership_select .question_faq a {
+    color: #565656 !important;
+}
+.loft_Technology_select .question_faq a {
+    color: #FF8200 ;
+}
+.loft_Technology_select .question_faq a:hover, .loft_Technology_select .question_faq a:focus {
+    color: #FF8200;
+}
+.loft_SCIENCE_img img{
+    width: 100%;
+	image-rendering: -webkit-optimize-contrast;
+}
+.contents {
+    color: #565656;
+    font-size: 18px;
+}
+.loft_SCIENCE_img {
+    max-width: 530px;
+    margin: 0 auto;
+}
+.loft_SCIENCE_text p {
+    font-size: 22px;
+    font-weight: 300;
+    max-width: 475px;
+    line-height: 32px;
+	min-height: 130px;
+}
+.loft-tebs_left p {
+    color: #555 !important;
+    font-weight: 400;
+	font-family:Calibri_Regular !important;
+}
+.cust_interactior {
+    display: block;
+    text-align: center;
+	margin-bottom: -20px;
+}
+.Why_glycosylation_img {
+    text-align: center;
+}
+.Why_glycosylation_img img{
+    max-width:380px;
+}
+.cust_interactior img {
+    max-width: 380px;
+    margin-top: 15px;
+}
+.loft_SCIENCE_AND_APPROACH .row {
+    padding: 80px 0;
+}
+.loft_Technology_sec {
+    padding: 165px 0 200px;
+}
+
+.loft_Technology_text h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.loft_Partnership_sec{
+	 padding: 165px 0 200px;
+}
+.loft_Partnership_sec h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.loft_Partnership_text {
+    max-width: 460px;
+}
+.loft_Partnership_sec .col-md-6 {
+    align-self: center;
+}
+.loft_Partnership_img {
+    max-width: 500px;
+    margin-left: auto;
+}
+ .loft_Partnership_select p{
+    color: #555555 !important;
+ }
+ 
+.question_faq p {
+    color: #555555;
+    font-size: 22px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+.loft_footer_sec section {
+    margin: 0;
+}
+.home_slider_mobile{
+	display:none;
+}
+.setss .loft_gl_105 img {
+    margin-top: 0px;
+}
+.cust_footer_logo figure {
+    margin: 0;
+}
+.loft_Technology_select select {
+    border: 2.5px solid #f4f4f4;
+    width: 500px;
+    padding: 20px 25px;
+    color: #FF8200;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.loft_Technology_img img {
+    width: 100%;
+}
+.loft_Technology_img {
+    max-width: 530px;
+    margin-left: auto;
+}
+.loft_Partnership_text h2{
+    color: #fff;
+}
+.loft_Partnership_text_in p {
+    color: #fff !important;
+    font-size: 24px;
+    line-height: 29px;
+    background: url(../images/underline.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 8px;
+    margin-bottom: 35px !important;
+    max-width: 404px;
+    font-family: 'Calibri_Regular' !important;
+}
+.partnership_second {
+   padding: 200px 0;
+   background-color:#f3f3f3;
+}
+.loft_Partnership_text p{
+    color: #EDEDED;
+}
+.partnership_second_right_content h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 50px;
+}
+.partnership_second_image_content {
+    background: #104378;
+    color: #fff;
+    padding: 25px;
+    position: absolute;
+    top: -55px;
+    left: 0px;
+    max-width: 360px;
+}
+.current_page_item a{
+	color:#ff8200 !important;
+}
+.partnership_second_image_content p{
+	margin-bottom:0;
+}	
+.partnership_second_image_inner {
+    position: relative;
+    max-width: 540px;
+    align-self: flex-end;
+    padding-left: 50px;
+}
+.partnership_second_image {
+    align-self: flex-end;
+}
+.partnership_second_right_content p:last-child {
+    margin-bottom: 0;
+}
+.partnership_second_right_content {
+    max-width: 465px;
+    margin-left: 100px;
+}
+
+.loft_Partnership_sec {
+    background: #104378;
+}
+.loft_Technology_text {
+    max-width: 460px;
+}
+.home_explore_section_right img {
+    max-width: 530px;
+}
+.home_explore_section_right {
+    text-align: center;
+}
+.loft_Partnership_text span {
+    color: #FF8200;
+	font-family: 'Calibri_Regular' !important;
+}
+.loft_Partnership_text_in p:last-child {
+    margin-bottom: 0;
+}
+.loft_Partnership_text_in {
+    max-width: 566px;
+}
+.loft_Contact_Glycure {
+    background: #f3f3f3;
+    padding: 200px 0;
+}
+.loft_Contact_Glycure_heading h2 {
+    color: #000;
+    font-size: 38px;
+    font-weight: 600;
+}
+.loft_contact_form .screen-reader-response {
+    display: none;
+}
+.loft_contact_form .wpcf7-not-valid-tip {
+    color: red;
+}
+.loft_Contact_Glycure_heading p {
+    color: #555555;
+    font-size: 24px;
+    max-width: 550px;
+    margin: 60px 0 50px;
+    line-height: 38px;
+}
+.loft_footer_sec {
+    background: #104378;
+    padding: 40px 0;
+}
+.cust_footer_logo {
+    max-width: 95px;
+}
+.loft_footer_sec p {
+    color: #F1F1F1;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.loft_footer_sec .row {
+    align-items: center;
+}
+.cust_footer_logo img {
+    width: 100%;
+}
+.loft_contact_form .main_contact input, .loft_contact_form .main_contact textarea {
+    padding: 32px 30px;
+    font-size: 22px;
+    color: #757575;
+    border: none;
+    font-weight: 300;
+    margin-bottom: 5px;
+    border-color: red !important;
+}
+.cust_textarea span {
+    display: block;
+    text-align: right;
+    font-size: 22px;
+}
+.loft_contact_form .wpcf7-response-output {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+     border-color: red !important;
+}
+.loft_contact_form .btn-success .wpcf7-response-output{
+    color: green;
+    border-color: green !important;
+}
+.loft_contact_form .main_contact textarea {
+    padding: 15px 30px !important;
+}
+.loft_contact_form .main_contact .col-sm-5 {
+    padding-right: 50px;
+}
+.loft_contact_form .main_contact input:focus {
+    box-shadow: none;
+}
+.loft_contact_form .main_contact textarea {
+    height: 240px !important;
+}
+.loft_contact_form .contact-button-action input {
+    background: #104378;
+    padding: 12px 50px !important;
+    color: #fff !important;
+    font-size: 24px !important;
+    border-radius: 50px;
+    float: right;
+    margin-top: 40px;
+    font-family: 'Calibri_Regular' !important;
+    border: 2px solid #104378 !important;
+    transition: .3s;
+}
+.loft_contact_form .contact-button-action input:hover,.loft_contact_form .contact-button-action input:focus,
+.loft_contact_form .contact-button-action .btn-success:not(:disabled):not(.disabled):active  {
+    background: #fff;
+    color: #104378 !important;
+	box-shadow:none !important;
+}
+.loft_footer_sec p a {
+    color: #F1F1F1;
+}
+.question_faq a:hover,  .question_faq a:focus{
+    color: #1f2c66;
+    text-decoration: none;
+    outline: none !important;
+}
+.lofttab_in {
+    display: flex;
+    margin-top: 15px;
+}
+.loft_gl_105 {
+    width: 100%;
+    text-align: center;
+}
+.loft_gl_105 img {
+    max-width: 380px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.loft_tab_right{
+    padding-left:15px;
+}
+.loft-tebs_left{
+   padding-right:15px;
+}
+.lofttab_in p {
+    padding-top: 0px;
+    margin-bottom: 0;
+}
+.lofttab_in img{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.Why_glycosylation_img {
+    margin-bottom: -20px;
+	margin-top: 40px;
+}
+/*.for_mobile {
+    display: none !important;
+}*/
+.setss .Why_glycosylation_img {
+    margin-bottom: -20px;
+}
+.sets  .Why_glycosylation_img {
+    margin-bottom: -20px;
+    max-width: 380px;
+    margin-top: 50px;
+}
+.setss .loft_gl_105 {
+    margin: 50px 0;
+}
+.sets.question_faq br {
+    display: none;
+}
+.set .Why_glycosylation_img {
+    margin: 50px 0px 30px;
+    padding: 0px 10px;
+}
+.setssss p {
+    margin-bottom: 0;
+}
+.meta_bolis {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.nav_btn{
+    display: none;
+}
+.question_faq img {
+    width: 100%;
+	image-rendering: -webkit-optimize-contrast;
+    
+}
+
+.mobile_nav{
+	display:none;
+}
+@media(min-width: 1500px){
+    .container {
+        max-width: 1260px;
+    }
+	.Why_glycosylation_img,.cust_interactior {
+    margin-bottom: -18px;
+}
+
+}
+
+
+@media(max-width:1499px) and (min-width:992px){
+	.loft_bann_text_new {
+    max-width: 390px;
+}
+	.loft_bann_text_new h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+	.loft_bann_text_new .home_banner_icon {
+    position: absolute;
+    max-height: 55px;
+    left: -60px;
+    top: -6px;
+}
+		.loft_navbar a {
+    font-size: 20px;
+	}
+	.loft_banner_sec {
+    height: 32vw;
+}
+	.home_banner_text_main h2 {
+    font-size: 22px;
+	}
+.science_banner .home_banner_text_main h2 {
+    max-width: 440px;
+}
+
+.science_left_sub_text p {
+    font-size: 18px;
+}
+.loft_SCIENCE_text p {
+    font-size: 18px;
+    max-width: 385px;
+	line-height: 26px;
+}
+.partner_page_banner .home_banner_text_main h2 {
+    max-width: 440px;
+}
+.loft_Partnership_text {
+    max-width: 380px;
+}
+.loft_Partnership_img {
+    max-width: 440px;
+}
+.loft_Partnership_sec {
+    padding: 120px 0 150px;
+}
+.loft_bann_text p {
+    font-size: 20px;
+    max-width: 450px;
+}
+.home_page_banner h2 {
+    max-width: 425px;
+}
+.home_page_banner .home_banner_text_main h2 {
+    font-size: 24px;
+}
+.about_page_banner .home_banner_text_main h2 {
+    max-width: 350px;
+}
+.technology_banner .home_banner_text_main h2 {
+    max-width: 410px;
+}
+.loft_Partnership_img img {
+    image-rendering: -webkit-optimize-contrast;
+}
+	.cust_logo,.cust_footer_logo {
+    max-width: 6vw;
+	}
+	
+	.question_faq a i:before {
+    font-size: 22px !important;
+}
+
+	.cust_logo img,.cust_footer_logo img{
+        image-rendering: -webkit-optimize-contrast;
+	}
+
+    .sets .Why_glycosylation_img {
+    margin-bottom: -18px;
+}
+
+.setss .Why_glycosylation_img {
+    margin-bottom: -18px;
+}
+.loft_gl_105 img {
+    max-width: 260px;
+    margin-bottom: 18px;
+}
+    .loft_navbar li {
+        padding: 0 15px;
+    }
+  
+
+.ban_btn {
+    font-size: 19px;
+    padding: 7px 25px;
+}
+.loft_bann_img {
+    width: 100%;
+    bottom: -100px;
+    margin-top: -100px;
+    max-width: 600px;
+}
+.loft_we_are_img {
+    max-width: 470px;
+}
+.loft_we_are_text h2 {
+    font-size: 2.2vw;
+}
+.loft_we_are_text h3 {
+    font-size: 1.6vw;
+	margin-bottom: 20px;
+}
+.loft_we_are_text p {
+    font-size: 1.5vw;
+    line-height: 2.1vw;
+    margin-bottom: 2.2vw;
+}
+
+.loft_we_are_img img {
+    max-width: 35vw;
+}
+.loft_we_are_sec {
+    padding: 140px 0;
+}
+.loft_SCIENCE_AND_APPROACH {
+    padding: 85px 0 85px;
+}
+.loft_SCIENCE_heading h2 {
+    font-size: 2.2vw;
+    margin-bottom: 5vw;
+}
+.loft_SCIENCE_heading {
+    max-width: 995px;
+}
+.loft_SCIENCE_heading p {
+    font-size: 1.65vw;
+    line-height: 2.5vw;
+    max-width: 61vw;
+}
+.loft_SCIENCE_AND_APPROACH .row {
+    padding: 65px 0;
+}
+
+.question_faq a {
+    font-size:20px;
+}
+.loft_SCIENCE_img {
+    max-width: 480px;
+    float: left;
+}
+.loft_SCIENCE_tabs, .loft_Technology_select {
+    width: 100%;
+    max-width: 550px;
+    margin-top: 25px;
+}
+.question_faq {
+    padding: 18px;
+}
+.loft_SCIENCE_text,
+.loft_SCIENCE_tabs {
+    margin-left: 35px;
+}
+.loft_SCIENCE_text p {
+    min-height: 120px;
+}
+.question_faq i:before {
+    font-size: 30px;
+}
+.loft_Technology_text {
+    max-width: 500px;
+}
+.loft_SCIENCE_text h2 {
+    font-size: 22px;
+}
+	.loft_SCIENCE_AND_APPROACH .row .col-md-6:last-child {
+    padding-left: 50px;
+}
+.loft_Technology_sec {
+    padding: 140px 0;
+}
+.loft_Technology_text h2 {
+    font-size: 34px;
+}
+.loft_Technology_text h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.loft_Technology_img {
+    max-width: 35vw;
+}
+ h1,h2,h3,h4,h5,h6 {
+    letter-spacing: 0.5px;
+}
+.loft_Technology_text {
+    max-width: 500px;
+}
+.loft_Contact_Glycure {
+    background: #f3f3f3;
+    padding: 150px 0;
+}
+.loft_Contact_Glycure_heading p {
+    margin: 2vw 0 2.3vw;
+    font-size: 1.5vw;
+    max-width: 34vw;
+    line-height: 2.5vw;
+}
+.loft_contact_form .main_contact input, .loft_contact_form .main_contact textarea {
+    padding: 28px 16px;
+    font-size: 18px;
+    font-family: Calibri_Light !important;
+}
+.loft_footer_sec p {
+    font-size: 1.5vw;
+}
+.loft_footer_sec {
+    padding: 20px 0;
+}
+
+.loft_Contact_Glycure_heading h2 {
+    font-size: 2.2vw;
+}
+.loft_contact_form .contact-button-action input {
+    font-size: 19px !important;
+    font-family: 'Calibri_Regular' !important;
+    padding: 8px 35px !important;
+}
+.question_faq p {
+    font-size: 1.4vw;
+}
+p {
+    font-size: 18px;
+}
+body, p, span, a, form, input, textarea {
+    line-height: 26px;
+}
+.home_slider_content {
+    max-width: 250px;
+    padding: 20px;
+    font-size: 20px;
+}
+	.home_slider_content {
+    max-width: 250px;
+    padding: 20px;
+    font-size: 20px;
+}
+	.loft_Partnership_sec h2 {
+    font-size: 22px;
+	}
+.home_slider_content p {
+    min-height: 125px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.home_explore_section_left_inner h3 {
+    margin-top: 1vw;
+}
+.home_slider_section, .about_glycure_difference, .technology_second {
+    background: #f8f9fa;
+    padding: 150px 0;
+}
+.home_explore_section_left_inner h3, .about_glycure_difference h2, .about_last_section h2 {
+    font-size: 22px;
+}
+
+.about_glycure_difference .col-md-5 p {
+    max-width: 365px;
+}
+	.about_last_section p {
+    max-width: 435px;
+}
+	.about_last_img2 {
+    max-height: 110px;
+}
+.about_glycure_difference .col-md-4 {
+    padding-left: 50px;
+}
+.about_glycure_difference .col-md-4 img {
+    image-rendering: -webkit-optimize-contrast;
+}
+.technology_last_right {
+    padding-left: 13%;
+}
+.about_last_right_box {
+    max-width: 370px;
+    float: right;
+    padding: 0 50px;
+}
+.home_explore_section_right img {
+    max-width: 430px;
+    float: right;
+}
+.about_glycure_difference h2 {
+    margin-top: 55px;
+}
+.about_last_section p {
+    max-width: 435px;
+}
+.home_explore_section_left_inner {
+    max-width: 370px;
+}
+.loftban-btn {
+    margin-top: 6vw;
+}
+.about_us_main_text p {
+    max-width: 445px;
+    float: right;
+}
+.about_last_section {
+    padding: 150px 0;
+}
+.about_last_img1 {
+    max-height: 100px;
+}
+.about_us_img {
+    max-width: 74%;
+    margin-left:0;
+}
+.about_us_img_content {
+    position: absolute;
+    top: 40.5%;
+    left: -40px;
+    max-width: 260px;
+    background: #ff8200;
+    padding: 20px 20px 20px;
+    color: #fff;
+}
+.about_us_img img {
+    max-width: 100%;
+}
+.about_us_main, .technology_first, .technology_last_section {
+    padding: 150px 0;
+}
+.science_right_image_main {
+    padding: 150px 15px;
+}
+.science_left_content {
+    max-width: 350px;
+}
+.technology_first h2, .technology_second h2 {
+    font-size: 22px;
+	margin-bottom:40px;
+}
+.technology_second_left_content p {
+    max-width: 370px;
+}
+.technology_second_image_inner {
+    max-width: 430px;
+}
+.technology_second_image_inner img {
+    image-rendering: -webkit-optimize-contrast;
+}
+.technology_last_section h2 {
+    font-size: 22px;
+	margin-bottom:30px;
+}
+.technology_last_image_inner {
+    max-width: 300px;
+    margin-left: auto;
+}
+.technology_last_image_inner img {
+    image-rendering: -webkit-optimize-contrast;
+}
+.technology_first_image_content {
+    max-width: 335px;
+    padding: 20px;
+}
+.technology_first_left_content {
+    max-width: 390px;
+}
+.partnership_second_image_content {
+    max-width: 300px;
+    padding: 20px;
+}
+.technology_first_image_inner {
+    max-width: 430px;
+}
+.partnership_second {
+    padding: 150px 0;
+}
+.partnership_second_right_content h2 {
+    font-size: 22px;
+    margin-bottom: 40px;
+}	
+.partnership_second_image_inner {
+    max-width: 480px;
+}
+.partnership_second_right_content {
+    max-width: 375px;
+    margin-left: 0;
+    float: right;
+}
+	
+
+.cust_textarea span {
+    display: block;
+    text-align: right;
+    font-size: 18px;
+}
+.container {
+    max-width: 990px;
+}
+.loft_banner_sec.partner_page_banner {
+    background-position: right center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+.home_explore_section_right img {
+    image-rendering: -webkit-optimize-contrast;
+}
+}
+@media (max-width: 1499px) and (min-width:1201px){
+.loft_bann_text_new {
+    max-width: 390px;
+    left: 8vw;
+}
+}
+@media(max-width: 1200px) and (min-width: 992px){
+.container {
+    max-width: 90%;
+}
+}
+
+@media(max-width: 1100px){
+.Why_glycosylation_img,.cust_interactior {
+    margin-bottom: -16px;
+}
+.sets .Why_glycosylation_img {
+    max-width: 340px;
+    margin-bottom: 10px;
+}
+.setss .Why_glycosylation_img {
+    margin-bottom: -16px;
+}
+
+.cust_interactior img {
+    max-width: 320px;
+    margin-top: 15px;
+}
+.setsss .meta_bolis {
+    max-width: 365px;
+}
+.sets .Why_glycosylation_img {
+    margin-bottom: -16px;
+}
+    .loft_navbar {
+        padding-left: 15px !important;
+    }
+   
+
+    .loftban-btn {
+        margin-top: 80px;
+    }
+    .loft_bann_img {
+        max-width: 410px;
+    }
+    .loft_we_are_text h3 {
+        margin-bottom: 15px;
+    }
+    
+    .question_faq {
+        padding: 16px;
+    }
+    .loft_SCIENCE_AND_APPROACH .row {
+        padding: 75px 0;
+    }
+    .loft_SCIENCE_text h2 {
+        margin-bottom: 18px;
+    }
+    .loft_Technology_text h2 {
+        margin-bottom: 20px;
+    }
+   
+    .loft_contact_form .main_contact .col-sm-5 {
+        padding-right: 30px;
+    }
+
+}
+@media(max-width:1024px){
+.loft_navbar a {
+    font-size: 20px;
+}
+}
+@media(min-width: 992px){
+.loft_Contact_Glycure_heading p br {
+    display: none;
+}
+}
+@media(max-width: 991px){
+	.home_page_banner_new {
+    position: relative;
+    height: 600px;
+}
+	.home_new_banner_text {
+    top: 12vw;
+}
+.home_page_banner_new video {
+		object-position: center center;
+}
+	.loft_bann_text_new h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+.loft_bann_text_new .home_banner_icon {
+    max-height: 46px;
+    left: -50px;
+    top: -3px;
+}
+	.loft_bann_text_new {
+    max-width: 330px;
+}
+.loft_banner_sec {
+    height: 600px;
+    align-items: flex-start;
+    padding-top: 15vw;
+}
+.loft_banner_sec.home_page_banner {
+    background-position: center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+.home_page_banner .home_banner_text_main h2 {
+    font-size: 24px;
+    max-width: 250px;
+}
+.home_slider_desktop{
+	display:none;
+}
+	.home_slider_mobile{
+	display:block;
+}
+	ul.slick-dots li button {
+    display: none;
+}
+.home_slider_section.home_slider_mobile .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.home_slider_section_inner {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.home_slider_mobile	ul.slick-dots li {
+    margin: 10px;
+    height: 20px;
+    width: 20px;
+    background: #fff;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+}
+	.home_slider_mobile	ul.slick-dots li.slick-active {
+    margin: 10px;
+    height: 14px;
+    width: 14px;
+    background: #104378;
+    border-radius: 50px;
+    border: 1px solid #104378;
+}
+	.home_slider_mobile ul.slick-dots {
+    text-align: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+	align-items: center;
+    width: 100%;
+    justify-content: center;
+	list-style: none;
+	padding-top: 20px;
+}
+.home_slider_section {
+    padding: 0px 0 10vw;
+}
+
+	.question_faq img {
+    image-rendering:unset;
+}
+
+   .homepage_banner_mobile{
+	display:block;
+}
+.homepage_banner_desktop{
+	display:none;
+}
+.home_banner_text_main {
+    position: static; 
+}
+.container {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container .row{
+	margin-right:0;
+	margin-left:0;
+}
+
+.homepage_banner_desktop_imgtop img {
+    max-width: 60vw;
+    image-rendering: -webkit-optimize-contrast;
+    margin-bottom: 10vw;
+    float: right;
+}
+.homepage_banner_desktop_imgtop {
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.loft_bann_text p {
+    font-size: 2.8vw;
+    margin-bottom: 10px;
+}
+.loftban-btn {
+    margin-top: 10vw;
+}
+.ban_btn {
+    font-size: 2.5vw;
+	padding: 1.1vw 4vw;
+	line-height:18px;
+}
+.homepage_banner_desktop_imgbottom {
+	text-align: right;
+	position: relative;
+	top: 7vw;
+	}
+	.loft_we_are_text .homepage_banner_mobile {
+    margin: 12vw 0;
+}
+.loft_bann_text {
+    max-width: unset;
+}
+	.col-md-6.home_explore_section_left {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+	.home_explore_section_left_inner {
+    max-width: 500px;
+    margin: 0 auto;
+}
+	.home_explore_section_left_inner h3 {
+    font-size: 24px;
+    max-width: 280px;
+		margin-top:0;
+}
+	.home_explore_section .homepage_banner_mobile {
+    display: block;
+    margin-top: 7vw;
+    margin-bottom: 10vw;
+    margin-left: -10px;
+}
+	p {
+    font-size: 20px;
+}
+.home_slider_section_right {
+    padding-left: 15px;
+}
+	.home_slider_section_left {
+    padding-right: 15px;
+}
+	.home_explore_section_left_inner p {
+    max-width: 400px;
+}
+	.home_explore_section {
+    padding: 15vw 0;
+}
+.homepage_banner_desktop_imgbottom img {
+    max-width: 19.5vw;
+    image-rendering: -webkit-optimize-contrast;
+}
+.loft_we_are_sec {
+    padding: 17vw 0;
+}
+.loft_we_are_text h2 {
+    font-size: 5vw;
+}
+.loft_we_are_text h3 {
+    margin-bottom: 4vw;
+    font-size: 3.5vw;
+}
+.loft_we_are_text p {
+    font-size: 3.3vw;
+    line-height: 5vw;
+    max-width: 66vw;
+}
+.loft_SCIENCE_AND_APPROACH {
+    padding: 9vw 0 7vw;
+}
+.loft_Technology_sec {
+    padding: 17vw 0;
+}
+.loft_SCIENCE_heading {
+    text-align: left;
+
+}
+.loft_SCIENCE_heading h2,
+.loft_Technology_text h2,
+.loft_Contact_Glycure_heading h2 {
+    font-size: 5vw;
+    margin-bottom: 8vw;
+}
+.loft_SCIENCE_heading p {
+    font-size: 3.6vw;
+    line-height: 5vw;
+    max-width: 56vw;
+    margin-left: 0;
+    margin-right: unset;
+}
+.loft_SCIENCE_text h2 {
+    margin-bottom: 5vw;
+    font-size: 24px;
+    margin-top: unset;
+}
+.loft_SCIENCE_text p {
+    margin-top: 6vw;
+    min-height: unset;
+}
+	.loft_SCIENCE_AND_APPROACH .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.loft_SCIENCE_tabs, .loft_Technology_select {
+    margin-top: 6vw;
+	}
+.loft_SCIENCE_AND_APPROACH .row {
+    padding: 6vw 0 8vw;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 430px;
+}
+.loft_SCIENCE_AND_APPROACH .row {
+    padding: 6vw 0 8vw;
+	justify-content: center;
+}
+	.science_right_image {
+    padding-left: 15px;
+}
+.science_right_image_main .row {
+    max-width: 430px;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+}
+	.science_right_image_inner {
+    position: relative;
+    max-width: 400px;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 8vw;
+}
+.science_right_image_main .col-md-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+/* .question_faq a {
+    font-size: 3.3vw;
+} */
+.question_faq i:before {
+    font-size: 30px;
+    top: 15px;
+    right: 10px;
+}
+.question_faq a {
+    font-size: 22px;
+}
+.question_faq {
+    padding: 16px 10px;
+}
+.loft_Technology_text .homepage_banner_mobile {
+    margin: 10vw 0 12vw;
+}
+.loft_Partnership_text_in p {
+    color: #fff !important;
+    font-size: 3.8vw !important;
+    line-height: 5vw !important;
+    background: url(../images/underline.png);
+    background-repeat: no-repeat;
+    background-position: 18% bottom;
+    padding-bottom: 8px;
+    margin-bottom: 10vw;
+    max-width: 54vw;
+    font-family: 'Calibri_Regular' !important;
+    background-size: 17vw;
+}
+.loft_Technology_select {
+    background: #fff;
+    margin-top: 12vw;
+    border: 2px solid #f1f1f1;
+}
+
+.loft_Contact_Glycure_heading p {
+    font-size: 3.3vw;
+    max-width: unset;
+    margin: 10vw 0;
+    line-height: 5vw;
+}
+.main_contact.row .col-sm-5 {
+    padding: 0;
+	max-width: 100%;
+    flex: 0 0 100%;
+}
+.main_contact .col-sm-12.col-xs-12,
+.main_contact .col-sm-7.col-xs-6 {
+    padding-left: 0;
+    padding-right: 0;
+	flex: 0 0 100%;
+    max-width: 100%;
+}
+.loft_contact_form .main_contact input, .loft_contact_form .main_contact textarea {
+    padding: 15px 15px 15px;
+    font-size: 20px;
+    border-radius: 0 !important;
+}
+.cust_textarea span {
+    display: block;
+    text-align: right;
+    font-size: 20px;
+}
+.loft_contact_form .main_contact textarea {
+    height: 160px !important;
+    padding: 10px 15px !important;
+}
+.loft_contact_form .contact-button-action input {
+    font-size: 3vw !important;
+    padding: 1.1vw 4vw !important;
+    border-radius: 50px !important;
+    float: left;
+    margin-top: 9vw;
+    line-height: 18px;
+    font-family: 'Calibri_Regular' !important;
+}
+/* .loft_header_section .col-12 {
+    padding-left: 35px;
+    padding-right: 35px;
+} */
+.loft_footer_sec .col-2,
+.loft_footer_sec .col-10 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    text-align: center;
+}
+.loft_footer_sec p {
+    font-size: 22px;
+    margin-top: 15px;
+}
+.cust_footer_logo {
+    margin: 0 auto;
+}
+.question_faq p {
+    font-size: 3.2vw;
+    padding-top: 2vw;
+    line-height: 5vw;
+}
+.mobile_nav .btn-main-nav span {
+    width: 100%;
+    height: 4px;
+    background-color: #104378;
+    position: absolute;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+
+.mobile_nav .btn-main-nav span:first-child {
+    top: 0;
+}
+.mobile_nav .btn-main-nav span:nth-child(2) {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+.mobile_nav .btn-main-nav span:last-child {
+    bottom: 0;
+}
+.mobile_nav .btn-main-nav.active span:first-child {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 11px;
+    left: 0;
+}
+.mobile_nav .btn-main-nav.active span:nth-child(2) {
+    opacity: 0;
+    width: 0%;
+}
+.mobile_nav .btn-main-nav.active span:last-child {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 5px;
+    left: 0;
+}
+.mobile_nav .btn-main-nav.active span:first-child {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 11px;
+    left: 0;
+}
+.mobile_nav .btn-main-nav.active span:nth-child(2) {
+    opacity: 0;
+    width: 0%;
+}
+.mobile_nav .btn-main-nav.active span:last-child {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 7px;
+    left: 0;
+}
+.mobile_nav {
+    display: block;
+    height: 22px;
+    width: 28px;
+    position: absolute;
+    top: 17px;
+    right: 15px;
+	cursor: pointer;
+}
+.cust_nav {
+    position: fixed;
+    top: 90px;
+    width: 100%;
+    left: 0;
+    background: #104378;
+    display: none;
+	height:100%;
+}
+.cust_nav.active {
+    display: block;
+}
+/* .cust_nav li#menu-item-130,
+.cust_nav li#menu-item-24  {
+    background: #104378;
+	border-top:0px;
+}
+.cust_nav li#menu-item-130 a,
+.cust_nav li#menu-item-24 a  {
+    color: #fff;
+} */
+.loft_navbar {
+    padding-left: 0px !important;
+}
+.cust_nav.active li {
+    width: 100%;
+    border-top: 1.5px solid #eee;
+	background: #fff;
+    
+}
+.cust_nav.active li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+	padding: 15px 15px;
+	font-family: 'Calibri_Light' !important;
+	font-size: 22px;
+}
+.loft_header_section {
+    padding: 17px 0;
+}
+/* .loft_banner_sec.about_page_banner {
+    align-items: flex-end;
+    padding-bottom: 10vw;
+	background: url(../images/about_banner.jpg) #010811;
+    background-position: 70% center;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+} */
+	.loft_banner_sec.about_page_banner {
+    background-position: center center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+		align-items: flex-end;
+    padding-bottom: 15vw;
+}
+.loft_bann_text h2 {
+    font-size: 24px;
+}
+	.about_page_banner .home_banner_text_main h2 {
+    max-width: 360px;
+}
+	.about_us_main .col-md-6 {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.about_us_main_text {
+    max-width: 400px;
+    margin: 0 auto;
+}
+	.about_us_img.homepage_banner_mobile {
+    margin-bottom: 10vw;
+}
+	.about_us_main_text p {
+    max-width: 360px;
+}
+	p:last-child {
+    margin-bottom:0;
+}
+	.about_us_img img {
+    max-width: 100%;
+}
+	.about_us_main, .technology_first, .technology_last_section, .about_glycure_difference {
+    padding: 15vw 0;
+}
+	.about_glycure_difference .row > div {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.about_glycure_difference .row {
+    max-width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about_glycure_difference .img_about_mobile {
+    position: absolute;
+    top: -15vw;
+    right: 0;
+    max-width: 260px;
+}
+	.about_glycure_difference h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.about_glycure_difference {
+    position: relative;
+}
+	.about_glycure_difference .row > div{
+    position: static;
+}
+	.about_glycure_difference p br {
+    display: none;
+}
+	.about_glycure_difference p {
+    max-width: 362px;
+}
+.about_last_section .row {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    max-width: 430px;
+}
+	.about_last_section .row .col-md-6 {
+    max-width: 100%;
+}
+.about_last_right_box {
+    max-width: 285px;
+    float: left;
+    padding: 0;
+    margin-bottom: 5vw;
+}
+.about_last_img3 {
+    left: 0;
+}
+.about_last_section {
+    padding: 20vw 0;
+}
+.about_last_img1 {
+    position: absolute;
+    top: 0;
+    left: unset;
+    max-height: 140px;
+    right: 10%;
+}
+	.about_last_section h2 {
+    font-size: 24px;
+}
+.about_last_img4 {
+    float: right;
+    max-width: 80px;
+    position: relative;
+    right: 22px;
+    top: -10px;
+}
+	.has-retina.about_last_img2 {
+    display: none;
+}
+.loft_banner_sec.science_banner {
+    align-items: flex-end;
+    padding-bottom: 15vw;
+    background-position: 60% center;
+}
+	
+	.science_banner .home_banner_text_main h2 {
+    max-width: 370px;
+}
+	.science_right_image_main {
+    padding: 15vw 15px;
+}
+.loft_banner_sec.technology_banner,.loft_banner_sec.partner_page_banner {
+    align-items: flex-end;
+	padding-bottom: 15vw;
+}
+	.technology_banner .home_banner_text_main h2 {
+    max-width: 430px;
+}
+	 .about_glycure_difference, .technology_second {
+    padding: 15vw 0;
+}
+	.home_slider_section {
+    padding: 0vw 0 15vw;
+	margin-top: -12vw;
+}
+	.technology_first .row, .technology_second .row, .technology_last_section .row {
+    max-width: 430px;
+    margin: 0 auto;
+}
+.technology_first .col-md-6, .technology_second .col-md-6, .technology_last_section .col-md-8 {
+   flex:0 0 100%;
+   max-width:100%;
+}
+	.technology_first_image_content p br {
+    display: none;
+}
+.technology_first_image_content {
+    position: absolute;
+    top: -10px;
+    background: #ff8200;
+    max-width: 330px;
+    padding: 20px;
+    right: -20px;
+    color: #fff;
+    font-size:20px;
+}
+	.technology_first_image_inner,.technology_second_image_inner,.technology_last_image_inner {
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+}
+	.technology_first h2, .technology_second h2, .technology_last_section h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+	.technology_last_right {
+    padding-left: 15px;
+}
+	.technology_first_left_content p {
+    max-width: 335px;
+}
+	.technology_last_image_inner {
+    text-align: center;
+}
+	.technology_last_image_inner img {
+    max-width: 60%;
+	}
+	.technology_last_right_content p {
+    max-width: 390px;
+}
+	.partner_page_banner .home_banner_text_main h2 {
+    max-width: 460px;
+}
+.loft_Partnership_sec {
+    padding: 15vw 0;
+}
+.partnership_second {
+    padding: 15vw 0;
+}
+	.loft_Partnership_sec h2,.partnership_second_right_content h2 {
+    font-size: 24px;
+		margin-bottom: 0;
+	}
+.loft_Partnership_sec .row, .partnership_second .row {
+    max-width: 430px;
+    margin: 0 auto;
+}
+.loft_Partnership_sec .col-md-6, .partnership_second .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.partnership_second_right_content {
+
+    margin-left: 0;
+}
+.partnership_second_image_inner {
+    padding-left: 0;
+    margin-top: 13.5vw;
+    margin-bottom: 10vw;
+}
+.partnership_second_image_content {
+    padding: 20px;
+    top: -35px;
+    left: -25px;
+    max-width: 320px;
+}
+	.loft_Partnership_text img {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+	.loft_banner_sec.contact_page_banner {
+    background-position: 70% top;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    padding-bottom: 15vw;
+}
+.contact_page_banner .loft_bann_text p {
+    font-size: 22px;
+    max-width: 490px;
+}
+	.loft_Contact_Glycure {
+    padding: 15vw 0;
+}
+.loft_contact_form {
+    max-width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+@media(min-width:500px){
+.loft_bann_text p br {
+    display: none;
+}
+}
+@media(max-width:499px){
+		.loft_banner_sec.science_banner {
+    background: url(../images/science_new_banner_mobile.jpg) #051118;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+	align-items: flex-end;
+}
+.loft_banner_sec.about_page_banner {
+    background: url(../images/about_new_banner_mobile.jpg) #051118;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+	align-items: flex-end;
+}
+	.home_new_banner_text {
+    top: 15vw;
+}
+	
+/* 	.loft_banner_sec.about_page_banner {
+    background-position: right top !important;
+    background-repeat: no-repeat !important;
+    align-items: flex-end;
+    padding-bottom: 10vw;
+    background-size: auto 100% !important;
+    background: url(../images/about_banner_mobile.jpg) #010811;
+} */
+	.loft_Contact_Glycure {
+    padding: 20vw 0;
+}
+	.about_us_img_content p {
+    font-size: 4vw;
+}
+.cust_textarea span {
+    font-size: 4.5vw;
+}
+	.contact_page_banner .loft_bann_text p {
+    font-size: 5vw;
+}
+	.loft_contact_form .main_contact input, .loft_contact_form .main_contact textarea {
+    font-size: 4.5vw;
+}
+.contact_page_banner .loft_bann_text p {
+    font-size: 5vw;
+    max-width: 68vw;
+	margin-top: 3vw;
+}
+	.container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+	.home_slider_content {
+    position: absolute;
+    top: -15px;
+    background: #104378;
+    max-width: 54vw;
+    padding: 5vw !important;
+    left: -15px;
+    color: #fff;
+    font-size: 22px;
+}
+	.loft_banner_sec.partner_page_banner {
+/*     background: url(../images/partner_mobile_banner.jpg) #00071e; */
+    background-position: right top;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+.home_slider_content p {
+    min-height: 25vw;
+    margin-bottom: 4vw;
+    line-height: 6vw;
+    font-size: 4vw;
+}
+.home_slider_section_inner {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+	.home_slider_content {
+    left: -5px;top: 0px;
+}
+	.home_slider_section {
+    padding: 0px 0 15vw;
+}
+	.home_explore_section_left_inner p {
+    max-width: 82vw;
+}
+	.home_explore_section_left_inner h3 {
+    font-size: 6vw;
+    max-width: 71vw;
+    margin-top: 0;
+	margin-bottom: 10vw;
+}
+	.home_explore_section .homepage_banner_mobile {
+    margin-top: 0;
+}
+.home_page_banner .home_banner_text_main h2 {
+    font-size: 7vw;
+    max-width: 65vw;
+}
+	.home_page_banner.loft_banner_sec {
+    height: 170vw;
+}
+		.loft_banner_sec {
+    height: 130vw;
+}
+	p {
+    font-size: 4vw;
+	line-height: 6vw;
+}
+.home_slider_content a {
+    font-size: 4.5vw;
+}
+.about_page_banner .home_banner_text_main h2 {
+    font-size: 5vw;
+    max-width: 60vw;
+}
+.loft_banner_sec.about_page_banner {
+    padding-bottom: 15vw;
+	}
+.about_us_img.homepage_banner_mobile {
+    max-width: 65vw;
+    margin: 0 auto 15vw;
+}	
+	.home_explore_section {
+    padding: 20vw 0;
+}
+	.technology_first, .technology_last_section, .about_glycure_difference {
+    padding: 20vw 0;
+}
+	.about_us_main {
+    padding: 20vw 0 25vw;
+}
+.about_us_img_content {
+    left: -9vw;
+    max-width: 54vw;
+    padding: 3vw;
+}
+	.about_us_main_text p {
+    max-width: 70vw;
+    line-height: 5vw;
+}
+	.about_glycure_difference .img_about_mobile {
+    position: absolute;
+    top: -21vw;
+    right: 0;
+    max-width: 48vw;
+}
+	.about_glycure_difference p {
+    max-width: 72vw;
+}
+	.about_last_img3 {
+    left: 0;
+    max-width: 35vw;
+    margin-bottom: 8vw;
+}
+	.about_last_img1 {
+    max-height: 22vw;
+    right: 18vw;
+}
+	.about_glycure_difference h2 {
+    font-size: 6vw;
+    margin-bottom: 10vw;
+}
+	.about_last_section h2 {
+    font-size: 6vw;
+}
+	.about_last_right_box {
+    max-width: 70vw;
+}
+	.loft_footer_sec p {
+font-size: 4vw;
+}
+.science_right_image_content {
+    top: -12vw;
+    max-width: 64.7vw;
+    padding: 3vw 3vw;
+    right: -9vw;
+}
+	.science_right_image_inner > img {
+    width: 80vw;
+}
+	.science_right_image_icon {
+    position: absolute;
+    top: -4vw;
+    left: -2vw;
+    max-width: 7vw;
+}
+.science_right_image_main {
+    padding: 25vw 0px 20vw;
+}
+.loft_SCIENCE_text p {
+    margin-top: 12vw;
+    font-size: 4vw;
+    max-width: 82vw;
+}
+.technology_first_left_content p {
+    max-width: 74vw;
+}
+		.technology_first_image_content p {
+ 
+    font-size: 4vw;
+}
+	.loft_SCIENCE_tabs, .loft_Technology_select {
+    margin-top: 12vw;
+}
+.science_banner .home_banner_text_main h2 {
+    max-width: 64vw;
+    font-size: 5vw;
+}
+	
+	.science_right_image_inner {
+    position: relative;
+    max-width: 78vw;
+    float: left;
+    margin-top: 10vw;
+    margin-bottom: 12vw;
+}
+	.loft_SCIENCE_text h2 {
+    margin-bottom: 7vw;
+    font-size: 5.5vw;
+}
+.question_faq i:before {
+    font-size: 6vw;
+    top: 4vw;
+}
+	.loft_SCIENCE_AND_APPROACH {
+    padding: 13vw 0 11vw;
+}
+	.loft_SCIENCE_AND_APPROACH .row {
+    padding: 7vw 0 9vw;
+    justify-content: center;
+}
+.loft_SCIENCE_text img {
+    width: calc(100% + 70px) !important;
+    max-width: unset;
+    margin-left: -35px;
+}
+	.science_left_text {
+    padding-right: 15px;
+}
+.science_left_content > p {
+    max-width: 73vw;
+}
+.science_left_sub_text p {
+    font-size: 4vw;
+}
+.question_faq a {
+    font-size: 4vw;
+}
+	.loft_banner_sec.technology_banner {
+    background: url(../images/technology_banner_mobile.jpg) #010a10;
+    background-size: auto 100%;
+    text-align: left;
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.technology_banner .home_banner_text_main h2 {
+    max-width: 68vw;
+    font-size: 5vw;
+}
+	.technology_first h2, .technology_second h2, .technology_last_section h2 {
+    font-size: 6vw;
+}
+.technology_first_image_content {
+    max-width: 64vw;
+    padding: 3vw;
+    right: -2px;
+    top: -5px;
+}
+	.technology_first_image_inner, .technology_second_image_inner, .technology_last_image_inner {
+    margin-bottom: 15vw;
+    margin-top: 15vw;
+}
+	.about_glycure_difference, .technology_second {
+    padding: 20vw 0;
+}
+	.home_slider_section{
+    padding: 0 0 15vw;
+		margin-top:-20vw;
+}
+	.home_page_banner_new {
+    height: 150vw;
+}
+	.loft_bann_text_new h2 {
+    font-size: 4vw;
+    line-height: 4.5vw;
+}
+.loft_bann_text_new {
+    max-width: 49vw;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    float: unset;
+    left: 7vw;
+}
+.loft_bann_text_new .home_banner_icon {
+    max-height: 13vw;
+    left: -14.5vw;
+    top: 1vw;
+}
+	.technology_second_left_content p {
+    max-width: 83vw;
+}
+	.technology_last_right_content p {
+    max-width: 82vw;
+}
+.partnership_second_image_content {
+    padding: 4vw;
+    top: -7vw;
+    left: 0px;
+    max-width: 67vw;
+}
+	.partnership_second_image_inner img {
+    max-width: 93%;
+    margin-left: 7%;
+}
+.partnership_second_right_content p {
+    max-width: 68vw;
+}
+.partnership_second_image_content {
+    padding: 4vw;
+    top: -9vw;
+    left: 0vw;
+    max-width: 64.5vw;
+}
+.partnership_second_image_content p {
+    font-size: 4vw;
+}
+	.loft_Partnership_sec h2, .partnership_second_right_content h2 {
+    font-size: 6vw;
+    margin-bottom: 0;
+}
+	.loft_Partnership_sec,.partnership_second {
+    padding: 20vw 0;
+}
+.loft_Partnership_text img {
+    margin-top: 10vw;
+    margin-bottom: 12vw;
+}
+.partnership_second_image_inner {
+    padding-left: 0;
+    margin-top: 20vw;
+    margin-bottom: 12vw;
+}
+/* 	.loft_banner_sec.science_banner{
+		padding-bottom:20vw;
+	} */
+.loft_bann_text h2 {
+    font-size: 5vw;
+}
+	.loft_banner_sec.contact_page_banner {
+    background-position: 63.5% top;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+    padding-bottom: 15vw;
+}
+.loft_Partnership_text p {
+    max-width: 68vw;
+}
+.partner_page_banner .home_banner_text_main h2 {
+    max-width: 70vw;
+    font-size: 5vw;
+}
+	.loft_contact_form .contact-button-action input {
+    font-size: 4.5vw !important;
+    padding: 1.5vw 7vw 1.8vw !important;
+}
+.cust_textarea span {
+    font-size: 4.5vw;
+}
+	.science_right_image_content p {
+    font-size: 4vw;
+}
+}
+
+
+
+
+
+@media(max-width:430px){
+	.loft_bann_text_new {
+    max-width: 55vw;
+}
+	.home_slider_content {
+    padding: 3vw 4vw 4vw;
+	}
+.home_slider_content p {
+    margin-bottom: 2vw;
+	line-height: 5.5vw;
+	}
+	.loft_bann_text_new h2 {
+    font-size: 4.5vw;
+    line-height: 5vw;
+}
+	.technology_first_image_content p {
+    font-size: 4vw;
+}
+.technology_first_image_content {
+    max-width: 64vw;
+	}
+.partnership_second_image_content p {
+    font-size: 4vw;
+}
+.partnership_second_image_content {
+    max-width: 65.5vw;
+}
+.science_right_image_content p {
+    font-size: 4vw;
+}
+
+.about_us_img_content p {
+    font-size: 4vw;
+}
+.about_us_img_content {
+    max-width: 55vw;
+}
+.home_slider_content p {
+    font-size: 4vw;
+}
+.home_slider_content {
+    max-width: 54.6vw;
+	}
+	.home_slider_content a {
+    font-size: 4.5vw;
+}
+	
+	.technology_first_left_content p {
+    max-width: 78vw;
+}
+		.science_left_content > p {
+    max-width: 82vw;
+}
+	.loft_SCIENCE_text img {
+    width: calc(100% + 50px) !important;
+    max-width: unset;
+    margin-left: -25px;
+}
+	.container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+	p {
+    font-size: 4.5vw;
+    line-height: 6vw;
+}
+	.partnership_second_right_content p {
+    max-width: 77vw;
+}
+	.loft_Partnership_text p {
+    max-width: 76vw;
+}
+	.about_us_main_text p {
+    max-width: 82vw;
+    line-height: 6vw;
+}
+	.about_glycure_difference p {
+    max-width: 80vw;
+}
+	.sets .Why_glycosylation_img {
+    max-width: 90%;
+	}
+	.sets .Why_glycosylation_img {
+    margin-top: 25px;
+}
+
+.setss .loft_gl_105 {
+    margin: 20px 0 0;
+}
+	.question_faq img {
+    max-width: 90%;
+}
+	.for_desktop {
+    display: none !important;
+}
+.for_mobile {
+    display: block !important;
+}
+	
+	.banner_section_after {
+    height: 50px;
+    background-size: 50px auto;
+}
+	.homepage_banner_desktop_imgbottom img {
+	max-width: 24.5vw;
+	image-rendering: -webkit-optimize-contrast;
+}
+	
+
+	.cust_logo {
+    max-width: 70px;
+}
+.cust_logo img{
+image-rendering: -webkit-optimize-contrast;
+}
+.mobile_nav {
+    top: 11px;
+}
+
+
+.cust_nav {
+    position: fixed;
+    top: 74px;
+}
+.loft_header_section {
+    padding: 17px 0;
+}
+	.cust_nav.active {
+    border-bottom: 60px solid #104378;
+}
+
+.cust_nav.active li a {
+    padding: 15px 2vw;
+	font-family: 'Calibri_Light' !important;
+	font-size: 4.5vw;
+}
+.about_last_section p {
+    max-width: 82vw;
+}
+.loft_header_section .col-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+	margin: 0 auto;
+}
+.mobile_nav {
+    height: 20px;
+    width: 25px;
+}
+.mobile_nav .btn-main-nav span {
+    height: 3px;
+}
+.mobile_nav .btn-main-nav.active span:first-child {
+    top: 10px;
+}
+.loft_contact_form .main_contact input, .loft_contact_form .main_contact textarea {
+	font-size:4.5vw;
+}
+.mobile_nav {
+    right: 4vw;
+}
+.loft_bann_text p {
+    font-size: 3.5vw;
+	margin-bottom: 7px;
+}
+.ban_btn {
+    font-size: 3.8vw;
+    padding: 1.5vw 7vw;
+}
+.loft_we_are_text h2 {
+    font-size: 6vw;
+	margin-bottom:3px;
+}
+.loft_we_are_text h3 {
+    font-size: 4.7vw;
+}
+.loft_we_are_text p {
+    font-size: 4.5vw;
+	line-height: 6vw;
+    max-width: unset;
+}
+.loft_SCIENCE_heading h2, .loft_Technology_text h2, .loft_Contact_Glycure_heading h2 {
+    font-size: 6vw;
+}
+.loft_SCIENCE_heading p {
+    font-size: 4.6vw;
+    line-height: 6.5vw;
+    max-width: unset;
+    margin-left: 0;
+    margin-right: unset;
+}
+.loft_SCIENCE_text h2 {
+    margin-bottom: 8vw;
+    font-size: 5.5vw;
+    margin-top: unset;
+}
+.loft_SCIENCE_text p {
+    font-size: 4.5vw;
+    line-height: 6vw;
+	max-width: unset;
+}
+.question_faq a {
+    font-size: 4.3vw;
+    font-family: 'Calibri_Regular' !important;
+}
+.question_faq p {
+    font-size: 4.3vw;
+    line-height: 6vw;
+}
+.loft_Technology_text p {
+    font-size: 4.5vw;
+    line-height: 6vw;
+    /*max-width: 74vw;*/
+}
+.loft_Technology_select {
+    width: 100%;
+    margin-left: 0;
+}
+.loft_Partnership_text_in p {
+    font-size: 5.4vw !important;
+    line-height: 6vw !important;
+    background-position: 0 bottom;
+    max-width: 85vw;
+    background-size: 22vw;
+}
+.loft_Contact_Glycure_heading p {
+    font-size: 4.5vw;
+    margin: 9vw 0;
+    line-height: 6vw;
+}
+.loft_contact_form .main_contact textarea {
+    height: 40vw !important;
+}
+
+.cust_footer_logo {
+    margin: 0 auto;
+    max-width: 75px;
+}
+}
+
+@media not all and (min-resolution:.001dpcm) {
+@media(min-width:1500px){
+.loft_bann_text {
+max-width: 660px;
+}
+.loft_we_are_text h3 {
+font-size: 26px;
+}
+}
+	.about_last_right_box {
+    max-width: 435px;
+}
+	@media (max-width: 1499px){
+	.about_last_right_box {
+max-width: 400px;
+}
+	}
+	@media (max-width: 991px){
+
+
+
+.loft_Partnership_text_in p{
+font-size: 3.7vw !important;
+}
+}
+	@media(max-width:991px) and (min-width:500px){
+		.partnership_second_right_content p {
+    max-width: 340px;
+}
+		.loft_Partnership_text p {
+    max-width: 335px;
+}
+	.home_explore_section_left_inner h3 {
+    font-size: 24px;
+    max-width: 300px;
+    margin-top: 0;
+}
+.about_last_right_box {
+    max-width: 310px;
+    float: left;
+    padding: 0;
+    margin-bottom: 5vw;
+}
+	}
+@media(max-width:499px){
+	.science_right_image_content {
+max-width: 65.7vw;
+}
+.home_explore_section_left_inner h3 {
+    font-size: 6vw;
+    max-width: 72vw;
+    margin-top: 0;
+}
+		.home_explore_section_left_inner h3 {
+    max-width: 74vw;
+}
+			.about_last_right_box {
+    max-width: 78vw;
+}
+
+	}
+@media(max-width:430px){
+	.science_right_image_content {
+max-width: 65.7vw;
+}
+	.loft_SCIENCE_AND_APPROACH .homepage_banner_mobile {
+    max-width: calc(100% + 60px);
+    margin-left: -34px;
+}
+body,html{
+	overflow-x:hidden;
+}
+
+.loft_bann_text h2 {
+font-size: 5.2vw;
+}
+.loft_bann_text p {
+    font-size: 3.8vw;
+    margin-bottom: 7px;
+}
+.cust_nav {
+    z-index: 99;
+}
+.ban_btn {
+    font-size: 3.7vw;
+}
+.loft_contact_form .contact-button-action input {
+    font-size: 3.7vw !important;
+}
+.loft_we_are_text h3 {
+font-size: 4vw;
+}
+
+.loft_Partnership_text_in p {
+font-size: 5.2vw !important;
+}
+.cust_logo img {
+    image-rendering: unset;
+}
+}
+	@media(max-width:400px){
+	.science_right_image_content {
+max-width: 64.7vw;
+}
+	}
+	@media(max-width:350px){
+	.science_right_image_content {
+max-width: 65.7vw;
+}
+	}
+}
